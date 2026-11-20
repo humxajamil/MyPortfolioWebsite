@@ -29,7 +29,7 @@ function copyGoogleVerification() {
 
 export default defineConfig(() => {
   return {
-    base: '/MyPortfolioWebsite/',
+base: '/',
     plugins: [react(), tailwindcss(), copyGoogleVerification()],
     build: {
       rollupOptions: {
